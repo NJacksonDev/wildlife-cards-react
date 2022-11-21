@@ -5,7 +5,7 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4040/")
+    fetch(process.env.REACT_APP_ENDPOINT)
       .then((res) => res.json())
       .then((data) => setPosts(data).catch((err) => console.error(err)));
   }, []);
