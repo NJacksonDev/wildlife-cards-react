@@ -8,7 +8,7 @@ export default function SinglePost() {
   return (
     <div className="container">
       <div className="single-post"></div>
-      <img src="https://source.unsplash.com/random?sig=1" alt="" />
+      <img src="https://source.unsplash.com/random?/nature" alt="" />
       <h1>{location.state.author}</h1>
       <p>{location.state.text}</p>
     </div>

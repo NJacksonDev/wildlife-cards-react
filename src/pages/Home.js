@@ -10,8 +10,6 @@ export default function Home() {
       .then((data) => setPosts(data).catch((err) => console.error(err)));
   }, []);
 
-  //   console.log(posts)
-
   const AllPosts = () => {
     return (
       <div className="posts">
@@ -24,7 +22,7 @@ export default function Home() {
               key={item.id}
             >
               <img
-                src={`https://source.unsplash.com/random?sig=${index}`}
+                src={`https://source.unsplash.com/random/?wildlife=${index}`}
                 alt="random"
               />
               <h4>{item.author}</h4>

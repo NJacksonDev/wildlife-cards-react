@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/single-post" element={<SinglePost />} />
         <Route path="/add-post" element={<AddPost />} />
-        <Route path="*" element={<h2> Page not found 🥲</h2>} />
+        <Route path="*" element={<h2> Page not found</h2>} />
       </Routes>
       <Footer />
     </BrowserRouter>
