@@ -26,8 +26,12 @@ export default function Home() {
                 src={`https://source.unsplash.com/random/?wildlife=${index}`}
                 alt="random wildlife"
               />
+              <br />
+              <br />
               <h4>{item.author}</h4>
+              <br />
               <p>{item.text}</p>
+              <br />
               <p>{item.date}</p>
             </Link>
           );
@@ -39,11 +43,14 @@ export default function Home() {
   return (
     <>
       <div className="container">
-        <h1>Wildlife Blog</h1>
-        <br />
-        <h2>
-          Refresh the page to see a randomized selection of wildlife pictures!
-        </h2>
+        <div className="homepage-text">
+          <h1>Wildlife Cards</h1>
+          <br />
+          <h2>
+            Try clicking on a picture or refreshing the page to see what
+            happens!
+          </h2>
+        </div>
         <AllPosts />
       </div>
       <Footer />

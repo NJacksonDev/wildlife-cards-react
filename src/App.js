@@ -4,7 +4,6 @@ import Home from "./pages/Home";
 import SinglePost from "./pages/SinglePost";
 import AddPost from "./pages/AddPost";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 function App() {
   return (

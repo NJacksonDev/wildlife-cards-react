@@ -5,7 +5,7 @@ export default function Header() {
         <a href="/">Home</a>
       </li>
       <li>
-        <a href="/add-post">Add New Post</a>
+        <a href="/add-post">Add New Card</a>
       </li>
     </ul>
   );

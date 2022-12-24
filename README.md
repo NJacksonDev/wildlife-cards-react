@@ -1,4 +1,4 @@
-# Wildlife Blog
+# Wildlife Cards
 
 In the project directory, you can run:
 

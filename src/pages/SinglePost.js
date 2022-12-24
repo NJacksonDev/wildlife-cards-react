@@ -5,13 +5,15 @@ export default function SinglePost() {
 
   return (
     <div className="container">
-      <div className="single-post"></div>
       <img
+        className="single-post"
         src="https://source.unsplash.com/random/?wildlife"
         alt="random wildlife"
       />
-      <h1>{location.state.author}</h1>
-      <p>{location.state.text}</p>
+      <div className="single-post-text">
+        <h1>{location.state.author}</h1>
+        <p>{location.state.text}</p>
+      </div>
     </div>
   );
 }
