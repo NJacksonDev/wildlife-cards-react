@@ -20,14 +20,20 @@ export default function AddPost() {
 
   return (
     <div className="container">
-      <h1>Add Blog Post</h1>
+      <h1>Add Post</h1>
+      <br />
       <form action="action">
-        <label htmlFor="">Author</label>
+        <label htmlFor="">Author: </label>
         <input name="text" type="text" onChange={handleForm} />
-        <label htmlFor="">Text</label>
+        <br />
+        <br />
+        <label htmlFor="">Text: </label>
         <input name="text" type="text" onChange={handleForm} />
-        <label htmlFor="">Date</label>
+        <br />
+        <br />
+        <label htmlFor="">Date: </label>
         <input name="date" type="date" onChange={handleForm} />
+        <br />
         <br />
         <br />
         <button type="submit" onClick={handleSubmit}>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
@@ -36,9 +37,16 @@ export default function Home() {
   };
 
   return (
-    <div className="container">
-      <h1>Homepage</h1>
-      <AllPosts />
-    </div>
+    <>
+      <div className="container">
+        <h1>Wildlife Blog</h1>
+        <br />
+        <h2>
+          Refresh the page to see a randomized selection of wildlife pictures!
+        </h2>
+        <AllPosts />
+      </div>
+      <Footer />
+    </>
   );
 }

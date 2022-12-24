@@ -1,4 +1,4 @@
-# Wildlife Blog App
+# Wildlife Blog
 
 In the project directory, you can run:
 

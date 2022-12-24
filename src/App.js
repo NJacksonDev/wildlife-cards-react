@@ -16,7 +16,6 @@ function App() {
         <Route path="/add-post" element={<AddPost />} />
         <Route path="*" element={<h2> Page not found</h2>} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

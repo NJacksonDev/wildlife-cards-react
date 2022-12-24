@@ -30,7 +30,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
@@ -44,7 +43,6 @@ li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
   margin: 4rem 0;
 }
 
@@ -96,7 +94,6 @@ footer {
   margin: 2rem 0;
   border-radius: 5px;
   border: solid 1px gray;
-
   text-decoration: none;
   color: #111;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
