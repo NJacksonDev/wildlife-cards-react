@@ -23,7 +23,7 @@ export default function Home() {
             >
               <img
                 src={`https://source.unsplash.com/random/?wildlife=${index}`}
-                alt="random"
+                alt="random wildlife"
               />
               <h4>{item.author}</h4>
               <p>{item.text}</p>
@@ -37,7 +37,7 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>Home Component</h1>
+      <h1>Homepage</h1>
       <AllPosts />
     </div>
   );

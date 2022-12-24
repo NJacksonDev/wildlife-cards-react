@@ -20,7 +20,7 @@ export default function AddPost() {
 
   return (
     <div className="container">
-      <h1>Add Post</h1>
+      <h1>Add Blog Post</h1>
       <form action="action">
         <label htmlFor="">Author</label>
         <input name="text" type="text" onChange={handleForm} />

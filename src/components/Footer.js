@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      <small>Copyright &copy; 2022 | all rights reserved</small>
+      <small>&copy; 2023 Nick Jackson | All rights reserved.</small>
     </footer>
   );
 }
