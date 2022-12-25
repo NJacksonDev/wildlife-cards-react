@@ -6,10 +6,9 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.REACT_APP_ENDPOINT)
+    fetch(`${process.env.REACT_APP_ENDPOINT}/posts`)
       .then((res) => res.json())
-      .then((data) => setPosts(data).catch((err) => console.error(err)))
-      .catch(alert);
+      .then((data) => setPosts(data).catch((err) => console.error(err)));
   }, []);
 
   const AllPosts = () => {

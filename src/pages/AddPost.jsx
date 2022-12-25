@@ -5,7 +5,7 @@ export default function AddPost() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(process.env.REACT_APP_ENDPOINT, {
+    fetch(`${process.env.REACT_APP_ENDPOINT}/posts`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

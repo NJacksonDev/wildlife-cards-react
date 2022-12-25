@@ -5,7 +5,7 @@ import SinglePost from "./pages/SinglePost";
 import AddPost from "./pages/AddPost";
 import Header from "./components/Header";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Header />
@@ -18,5 +18,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
