@@ -8,7 +8,8 @@ export default function Home() {
   useEffect(() => {
     fetch(process.env.REACT_APP_ENDPOINT)
       .then((res) => res.json())
-      .then((data) => setPosts(data).catch((err) => console.error(err)));
+      .then((data) => setPosts(data).catch((err) => console.error(err)))
+      .catch(alert);
   }, []);
 
   const AllPosts = () => {
