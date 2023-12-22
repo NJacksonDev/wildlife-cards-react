@@ -4,10 +4,6 @@ Wildlife Cards is a full-stack web application which allows users to upload one 
 
 Technologies used: React, Node.js, Express, MongoDB.
 
-## Live Version URL: 
-
-`https://wildlife-cards.web.app/`
-
 ## Screenshot of Application
 
 ![Screenshot 2022-12-30 at 9 23 59 PM](https://user-images.githubusercontent.com/12886956/210122274-3e341c17-eb04-424c-a960-8848912eb4c0.png)
